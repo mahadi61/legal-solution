@@ -74,3 +74,18 @@ body{
 }
 /* FAQ area css end */
 /* main area css end */
+
+
+/* footer area css  */
+.footer{
+    background-color: #111111;
+
+}
+.footer-link{
+    color: var(--color-white);
+
+}
+.btn-footer{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
