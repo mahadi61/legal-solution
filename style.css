@@ -11,8 +11,26 @@ body{
     font-family: 'EB Garamond', serif;
     font-family: 'Poppins', sans-serif;
 }
+/* common css */
+.h1{
+    color: var(--color-dark2);
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'EB Garamond', serif;
+}
+.h2{
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'EB Garamond', serif;
+}
+.p{
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 400;
+}
 
-
+/*  // common css */
 /* navbar css start */
 .nav-color{
     color: var(--color-dark3);
@@ -26,3 +44,29 @@ body{
     font-weight: 600;
 }
 /* navbar css end */
+
+/* main area css start */
+
+/* banner area css start */
+.banner{
+    background: url(./images/banner.png);
+    background-size: cover;
+
+}
+
+/* banner area css end */
+/* client area css start */
+.carousel-area-img{
+    height: 500px;
+}
+.client-area-content{
+    color: var(--color-dark3);
+    font-size: 16px;
+    font-weight: 400;
+}
+.client-img-area{
+    width: 155px;
+}
+/* client area css end */
+
+/* main area css end */
