@@ -1,4 +1,28 @@
+:root {
+    --color-primary: #B68C5A;
+    --color-dark2: #414040;
+    --color-dark3: #707070;
+    --color-white: #ffffff;
+}
+
+
+
 body{
     font-family: 'EB Garamond', serif;
     font-family: 'Poppins', sans-serif;
 }
+
+
+/* navbar css start */
+.nav-color{
+    color: var(--color-dark3);
+    font-size: 16px;
+}
+.btn-consultation{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* navbar css end */
