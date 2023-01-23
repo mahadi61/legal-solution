@@ -29,6 +29,18 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+.bt-none{
+    border-top: none;
+}
+.bb-none{
+    border-bottom: none;
+}
+.bs-none{
+    border-left: none;
+}
+.be-none{
+    border-right: none;
+}
 
 /*  // common css */
 /* navbar css start */
@@ -55,6 +67,39 @@ body{
 }
 
 /* banner area css end */
+
+
+/* Legal Practice Area css start */
+.card-img{
+    width: 70px;
+    height: 70px;
+}
+.card-icon{
+    font-size: 20px;
+    color: var(--color-primary);
+    font-weight: 700;
+}
+.single-card{
+    transition: all 0.5s ease-in-out;
+}
+.single-card:hover{
+    background: linear-gradient(#f1f1f1e6 0%, #f3f3f300 100%);
+}
+.bt-none{
+    border-top: none;
+}
+.bb-none{
+    border-bottom: none;
+}
+.bs-none{
+    border-left: none;
+}
+.be-none{
+    border-right: none;
+}
+
+/* Legal Practice Area css end */
+
 /* client area css start */
 .carousel-area-img{
     height: 500px;
@@ -89,3 +134,4 @@ body{
     background-color: var(--color-primary);
     color: var(--color-white);
 }
+/* footer area css  */
