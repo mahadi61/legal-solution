@@ -68,5 +68,9 @@ body{
     width: 155px;
 }
 /* client area css end */
-
+/* FAQ area css start */
+.bg-faq{
+    background-color: #F3F3F3;
+}
+/* FAQ area css end */
 /* main area css end */
