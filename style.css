@@ -132,6 +132,9 @@ body{
 .bg-faq{
     background-color: #F3F3F3;
 }
+.faq-img{
+    height: 600px;
+}
 /* FAQ area css end */
 /* main area css end */
 
