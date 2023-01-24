@@ -66,6 +66,9 @@ body{
     height: 100vh;
 
 }
+.banner-content{
+    max-width: 600px;
+}
 .banner-title{
     font-size: 60px;
     color: var(--color-white);

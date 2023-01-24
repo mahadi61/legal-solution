@@ -58,7 +58,40 @@
               
             </ul>
             
-            <button class="btn btn-consultation" type="submit">Free Consultation</button>
+            <button class="btn btn-consultation" type="button" data-bs-toggle="modal" data-bs-target="#navModal">Free Consultation</button>
+  
+
+<!-- Modal -->
+<div class="modal fade" id="navModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Please give your information</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- from -->
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          
+        </form>
+        <!-- from -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
           </div>
         </div>
       </nav>
@@ -67,9 +100,9 @@
 <!-- main area start  -->
 <main class="container">
     <!-- banner area start  -->
-    <section class="container banner  d-flex flex-column justify-content-center align-items-center text-center">
+    <section class="container banner  d-flex flex-column justify-content-center align-items-center text-center my-5">
        <div class="row  d-flex flex-column justify-content-center align-items-center text-center">
-        <div class="col-12 w-50">
+        <div class="col-12 banner-content">
           <div>
             <h1 class="banner-title">We Provide Effective
               <br> Legal Solutions</h1>
@@ -309,7 +342,8 @@
                           </button>
                         </h2>
                         <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages. The pages made with semantic elements are much easier to read. It has greater accessibility. It offers a better user experience
+                          <div class="accordion-body">The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages. The pages made with semantic elements are much easier to read. It has greater accessibility. It offers a better user experience.
+                            Examples of semantic elements: <span><</span>form<span>></span> <span><</span>table<span>></span>, and <span><</span>article<span>></span>  - Clearly defines its content.
                           </div>
                         </div>
                       </div>
