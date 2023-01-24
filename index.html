@@ -67,16 +67,22 @@
 <!-- main area start  -->
 <main class="container">
     <!-- banner area start  -->
-    <!-- <section class="banner">
-        <div class="banner-content">
-            <h1>We Provide Effective Legal Solutions</h1>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            <div>
-                <input type="text">
-                <a class="btn btn-consultation" href="">Search</a>
-            </div>
+    <section class="container banner  d-flex flex-column justify-content-center align-items-center text-center">
+       <div class="row  d-flex flex-column justify-content-center align-items-center text-center">
+        <div class="col-12 w-50">
+          <div>
+            <h1 class="banner-title">We Provide Effective
+              <br> Legal Solutions</h1>
+            <p class="p">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          </div>
+          <div class="d-flex justify-content-between mb-3">
+            <input type="text" class="form-control me-3" placeholder="Search your services" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-header" type="button" id="button-addon2">Search</button>
+          </div>
+          
         </div>
-    </section> -->
+       </div>
+    </section>
     <!-- banner area end -->
 
 
@@ -255,7 +261,7 @@
         <div class="row">
             <div class="co-12 d-flex flex-column justify-content-center align-items-center px-5 text-center my-5">
                 <h1 class="my-3 h1">Frequently Asked Any Questions</h1>
-                <p class="client-area-content">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <p class="client-area-content"></p>
             </div>
         </div>
         <div class="row">
@@ -264,42 +270,47 @@
                     <div class="accordion-item mb-3 bg-faq">
                       <h2 class="accordion-header" id="flush-headingOne">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          Accordion Item #1
+                          What is the difference between Flexbox and Grid?
                         </button>
                       </h2>
                       <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                        <div class="accordion-body">
+                          The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+                        </div>
                       </div>
                     </div>
                     <div class="accordion-item  mb-3 bg-faq">
                       <h2 class="accordion-header" id="flush-headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                          Accordion Item #2
+                          What is the purpose of media queries?
                         </button>
                       </h2>
                       <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        <div class="accordion-body">Media queries are a key part of responsive web design, as they allow you to create different layouts depending on the size of the viewport, but they can also be used to detect other things about the environment your site is running on, for example whether the user is using a touchscreen rather than a mouse.
+                        </div>
                       </div>
                     </div>
                     <div class="accordion-item  mb-3 bg-faq">
                       <h2 class="accordion-header" id="flush-headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                          Accordion Item #3
+                          CSS box model and how does it work?
                         </button>
                       </h2>
                       <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        <div class="accordion-body">
+                          The CSS Box Model is used to create a definition for the way the HTML elements are organized on the screen. This approach accounts for options such as margins, padding, borders, and all the properties that manipulate them. Each element can be thought of as having its own box.
+                        </div>
                       </div>
                     </div>
                     <div class="accordion-item  mb-3 bg-faq">
                         <h2 class="accordion-header" id="flush-headingFour">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
-                            Accordion Item #4
-                            
+                            What is semantic tag?                            
                           </button>
                         </h2>
                         <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                          <div class="accordion-body">The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages. The pages made with semantic elements are much easier to read. It has greater accessibility. It offers a better user experience
+                          </div>
                         </div>
                       </div>
                   </div>
@@ -330,7 +341,7 @@
                 <img class="mb-5" src="./images/logo.png" alt="">
                 <p class="p px-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             </div>
-            <div class="col-12 col-md-2 mb-3">
+            <div class="col-12 col-md-2 mb-3 px-3">
                 <h2 class="h2 mb-5">Usefull Link</h2>
                 <a class="nav-link footer-link" href="">Homes</a>
                 <a class="nav-link footer-link" href="">About Us</a>
@@ -338,7 +349,7 @@
                 <a class="nav-link footer-link" href="">Blog</a>
                 <a class="nav-link footer-link" href="">Contact Us</a>
             </div>
-            <div class="col-12 col-md-3 mb-3">
+            <div class="col-12 col-md-3 mb-3 px-3">
                 <h2 class="h2 mb-5">Contact Now</h2>
                 <p class="p">555 4th 5t NW, Washington
                    <br> DC 20530, United States</p>
@@ -347,7 +358,7 @@
                 <p class="p">info@gmail.com</p>
                 <p class="p">info@gmail.com</p>
             </div>
-            <div class="col-12 col-md-4 mb-3">
+            <div class="col-12 col-md-4 mb-3 px-3">
                 <h2 class="h2 mb-5">Subscribe</h2>
                 <p class="p">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
                 <div class="input-group mb-3">

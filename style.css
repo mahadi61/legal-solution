@@ -63,9 +63,21 @@ body{
 .banner{
     background: url(./images/banner.png);
     background-size: cover;
+    height: 100vh;
 
 }
-
+.banner-title{
+    font-size: 60px;
+    color: var(--color-white);
+    font-weight: 800;
+    font-family: 'EB Garamond', serif;
+}
+.btn-header{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: 20;
+    font-weight: 600;
+}
 /* banner area css end */
 
 
